@@ -10,6 +10,7 @@ public class DemocicdApplication {
 
 		SpringApplication.run(DemocicdApplication.class, args);
 		System.out.println("Hello world");
+		System.out.println("African people world");
 	}
 
 }
