@@ -16,4 +16,9 @@ public class TestController {
     public String testEndpoin() {
         return "Hello bin from the test endpoint! Application is running successfully.";
     }
+
+    @GetMapping("/tess")
+    public String testEndpin() {
+        return "Hello auto from the test endpoint! Application is running successfully.";
+    }
 }
