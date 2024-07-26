@@ -11,4 +11,9 @@ public class TestController {
     public String testEndpoint() {
         return "Hello from the test endpoint! Application is running successfully.";
     }
+
+    @GetMapping("/")
+    public String testEndpoin() {
+        return "Hello bin from the test endpoint! Application is running successfully.";
+    }
 }
