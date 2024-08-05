@@ -6,12 +6,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class DemocicdApplication extends SpringBootServletInitializer {
-
-	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(DemocicdApplication.class);
-	}
+public class DemocicdApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemocicdApplication.class, args);
